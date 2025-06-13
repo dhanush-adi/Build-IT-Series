@@ -1,0 +1,62 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.navbar .nav-link {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.navbar .nav-link:hover {
+  color: #00ffff;
+}
+
+#hero {
+  background: radial-gradient(circle at top left, #00ffff33, transparent 70%);
+}
+
+.section-heading {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.project-card {
+  background: #111;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 255, 255, 0.2);
+}
+
+.project-card img {
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.project-card:hover img {
+  filter: grayscale(0%);
+}
+
+footer {
+  background: #111;
+  color: #ecffff;
+}
+
+.btn-outline-light {
+  border-color: #00ffff;
+  color: #00ffff;
+}
+
+.btn-outline-light:hover {
+  background: #00ffff;
+  color: #000;
+}
